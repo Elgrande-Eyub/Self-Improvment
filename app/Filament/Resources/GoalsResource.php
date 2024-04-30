@@ -35,7 +35,7 @@ class GoalsResource extends Resource
         return $form
             ->schema([
                 Section::make('Goal Creation')
-                ->description('Enter and submit details related to a Goal.')
+                ->description('Enter and submitTest details related to a Goal.')
                 ->icon('phosphor-target-duotone')
                 ->schema([
 
